@@ -15,33 +15,39 @@ A powerful and customizable wordlist generator tool designed for cybersecurity p
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/raven-wg.git
+git clone https://github.com/Rav3n48/wordlist-generator.git
 cd raven-wg
 
-2. Ensure you have Python 3.x installed
+2. Ensure you have Python 3 installed
 
 ## Usage
 
 ### Basic Syntax
+```bash
 python3 raven-wg.py -f FIRSTNAME -l LASTNAME [OPTIONS] -m MAX_WORDS -o OUTPUT_FILE
+```
 
 ### Example
-python3 raven-wg.py -f john -l doe -b 1990-05-15 -p 5551234567 --family jane,smith -i company,tech --min 6 --max 12 -m 5000 -o custom_wordlist.txt -d
+```bash
+python3 raven-wg.py -f john -l doe -b 1990-05-15 -p 5551234567 --family jane,smith -i company,tech --min 6 --max 12 -m 10000000 -o custom_wordlist.txt -d
+```
 
 ### Options
-Option          Description                             Example
--f, --firstname Target's first name                     -f john
--l, --lastname  Target's last name                      -l doe
--b, --birthday  Birthday in YYYY-MM-DD format           -b 1990-05-15
--n, --nationalid National ID number                     -n 123456789
--p, --phone     Phone number                            -p 5551234567
---family        Family members (comma separated)        --family jane,smith
--i, --info      Other information (comma separated)     -i company,tech
--o, --output    Output file name                        -o wordlist.txt
---min           Minimum password length                 --min 6
---max           Maximum password length                 --max 12
--m, --max_words Maximum number of words to generate     -m 5000
--d, --display   Print generated words to terminal       -d
+
+| Option | Description | Example |
+|--------|-------------|---------|
+| `-f, --firstname` | Target's first name | `-f john` |
+| `-l, --lastname` | Target's last name | `-l doe` |
+| `-b, --birthday` | Birthday in YYYY-MM-DD format | `-b 1990-05-15` |
+| `-n, --nationalid` | National ID number | `-n 123456789` |
+| `-p, --phone` | Phone number | `-p 5551234567` |
+| `--family` | Family members (comma separated) | `--family jane,smith` |
+| `-i, --info` | Other information (comma separated) | `-i company,tech` |
+| `-o, --output` | Output file name | `-o wordlist.txt` |
+| `--min` | Minimum password length | `--min 6` |
+| `--max` | Maximum password length | `--max 12` |
+| `-m, --max_words` | Maximum number of words to generate | `-m 5000` |
+| `-d, --display` | Print generated words to terminal | `-d` |
 
 ## Ethical Use Disclaimer
 
