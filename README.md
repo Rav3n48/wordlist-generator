@@ -14,11 +14,15 @@ A powerful and customizable wordlist generator tool designed for cybersecurity p
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
+```bash
 git clone https://github.com/Rav3n48/wordlist-generator.git
+```
+2. Go to directory
+```bash
 cd raven-wg
-
-2. Ensure you have Python 3 installed
+```
+3. Ensure you have Python3 installed
 
 ## Usage
 
